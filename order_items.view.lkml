@@ -1,6 +1,8 @@
 view: order_items {
   sql_table_name: demo_db.order_items ;;
 
+#This was a change to prod.  Hopefully the one above is still there.
+
   dimension: id {
     primary_key: yes
     type: number
